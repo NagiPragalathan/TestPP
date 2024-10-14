@@ -10,7 +10,7 @@ messages = [
 ]
 
 # Specify the model to use
-model = "gpt-4"  # Replace with the model name you want to use
+model = "gpt-4o"  # Replace with the model name you want to use
 
 # Generate a response
 response = chat.create(model=model, messages=messages)
