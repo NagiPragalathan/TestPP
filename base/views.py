@@ -57,3 +57,6 @@ def student_signup_view(request):
         else:
             return render(request, 'student_signup.html', {'error': 'Passwords do not match'})
     return render(request, 'student_signup.html')
+
+def question_view(request):
+    return render(request, 'Questions.html')

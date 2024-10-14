@@ -1,0 +1,45 @@
+{
+    "colleges": [
+      {
+        "name": "Indian Institute of Technology Madras",
+        "location": "Chennai"
+      },
+      {
+        "name": "Anna University",
+        "location": "Chennai"
+      },
+      {
+        "name": "National Institute of Technology Tiruchirappalli",
+        "location": "Tiruchirappalli"
+      },
+      {
+        "name": "Vellore Institute of Technology",
+        "location": "Vellore"
+      },
+      {
+        "name": "SRM Institute of Science and Technology",
+        "location": "Chennai"
+      },
+      {
+        "name": "Amrita Vishwa Vidyapeetham",
+        "location": "Coimbatore"
+      },
+      {
+        "name": "Sastra University",
+        "location": "Thanjavur"
+      },
+      {
+        "name": "PSG College of Technology",
+        "location": "Coimbatore"
+      },
+      {
+        "name": "Loyola College",
+        "location": "Chennai"
+      },
+      {
+        "name": "Madras Christian College",
+        "location": "Chennai"
+      }
+    ]
+  }
+  
