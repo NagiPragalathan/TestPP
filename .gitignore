@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Pytest
+.cache/
+*.cover
+*.log
+
+# Coverage reports
+htmlcov/
+*.coverage
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Local settings
+local_settings.py
+
+# Secret files
+secrets.json
+
+# Other
+*.DS_Store
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
