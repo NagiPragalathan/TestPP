@@ -42,3 +42,18 @@ def dashboard_view(request):
         return render(request, 'student_dashboard.html')
     else:
         return render(request, 'dashboard.html')
+
+
+def student_signup_view(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password1 = request.POST['password1']
+        password2 = request.POST['password2']
+
+        if password1 == password2:
+            user = User.objects.create_user(username=username, password=password1)
+            Profile.objects.create(user=user, role='student')
+            return redirect('login')
+        else:
+            return render(request, 'student_signup.html', {'error': 'Passwords do not match'})
+    return render(request, 'student_signup.html')
